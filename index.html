@@ -1,0 +1,33 @@
+---
+layout: page
+title: "My projects"
+icon: "fa-tasks"
+---
+
+<!--div class="row">
+  {% for portfolio in site.portfolio %}
+    <div class="col s12 m6 l6">
+      <h3><a href="{{ portfolio.url }}">{{ portfolio.title }}</a></h3>
+      <span>{{ portfolio.date | date_to_string }}</span>
+      <p class="flow-text">{{ portfolio.summary }}</p>
+      <img class="responsive-img" src="{{ site.url }}/public/portfolio/img/{{ portfolio.image }}">
+    </div>
+  {% endfor %}
+</div-->
+
+<div class="row" style="margin-top: 30px;">
+  {% for portfolio in site.portfolio %}
+  <div class="col s12 m6 l4">
+    <div class="card">
+      <div class="card-image">
+        <img src="{{ site.url }}/public/portfolio/img/{{ portfolio.image }}">
+        <a class="btn-floating halfway-fab waves-effect waves-light blue" href="{{ portfolio.url }}"><i class="material-icons">add</i></a>
+      </div>
+      <div class="card-content">
+        <span class="card-title"><strong>{{ portfolio.title }}</strong></span>
+        <p class="flow-text">{{ portfolio.summary }}</p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,97 @@
+html {
+  font-family: "Roboto", sans serif;
+  font-weight: 300;
+  font-size: 12px;
+}
+header, main, footer {
+  padding-left: 300px;
+}
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+/* Code */
+code {
+  padding: .25em .5em;
+  font-size: 85%;
+  color: #000;
+  background-color: #f9f9f9;
+  border-radius: 3px;
+}
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f9f9f9;
+}
+pre code {
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
+  background-color: transparent;
+}
+
+/* Pygments via Jekyll */
+.highlight {
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+.highlight pre {
+  margin-bottom: 0;
+}
+
+/* Gist via GitHub Pages */
+.gist .gist-file {
+  font-family: Menlo, Monaco, "Courier New", monospace !important;
+}
+.gist .markdown-body {
+  padding: 15px;
+}
+.gist pre {
+  padding: 0;
+  background-color: transparent;
+}
+.gist .gist-file .gist-data {
+  font-size: .8rem !important;
+  line-height: 1.4;
+}
+.gist code {
+  padding: 0;
+  color: inherit;
+  background-color: transparent;
+  border-radius: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+article {
+  padding: 20px;
+}
+blockquote {
+  font-style: italic;
+  margin: 20px 0;
+  padding-left: 1.5rem;
+  border-left: 5px solid #0277bd; /* Just change the color value and that's it*/
+}
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 85%;
+}
+@media only screen and (min-width: 601px)
+  .container {
+    width: 90%;
+}
+@media only screen and (min-width: 993px)
+  .container {
+    width: 80%;
+}

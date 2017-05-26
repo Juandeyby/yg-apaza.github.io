@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<div class="center">
+  <h1 class="thin blue-text text-darken-3">{{ page.title }}</h1>
+  <h5 class="thin grey-text text-darken-3">{{ page.date | date_to_string }}</h5>
+</div>
+<div class="divider"></div>
+<article class="flow-text">
+{{ content }}
+</article>
+
+{% include disqus.html %}

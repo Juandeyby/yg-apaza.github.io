@@ -1,0 +1,22 @@
+<ul id="slide-out" class="side-nav fixed">
+  <li>
+    <div class="userView">
+      <div class="background blue darken-3"></div>
+      <a href="{{ site.baseurl }}"><img class="circle" src="https://2.gravatar.com/avatar/e967063a44e268c0fafe759ee3f3ff26"></a>
+      <a href="{{ site.baseurl }}"><span class="white-text name">{{ site.author.name }}</span></a>
+      <span class="white-text email">{{ site.author.email }}</span>
+      <span class="blue-text text-lighten-3 email">{{ site.description }}</span>
+    </div>
+  </li>
+  {% assign pages_list = site.pages %}
+  {% for node in pages_list %}
+    {% if node.title != null %}
+      {% if node.layout == "page" %}
+        <li><a class="waves-effect" href="{{ node.url }}"><i class="fa {{ node.icon }} fa-2x"></i>{{ node.title }}</a></li>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  <li><a class="waves-effect" href="{{ site.author.github }}" target="_blank"><i class="fa fa-github fa-2x"></i>GitHub</a></li>
+  <li><a class="waves-effect" href="{{ site.baseurl }}blog/feed.xml"><i class="fa fa-rss fa-2x"></i>Subscribe via RSS</a></li>
+</ul>
+<a href="#" data-activates="slide-out" class="button-collapse blue-text" style="margin:1em;"><i class="fa fa-bars fa-2x" style="margin-top:0.5em"></i></a>
