@@ -5,6 +5,7 @@ date:       2016-09-23
 comments:   true
 summary:    "Simple minesweeper game with Smalltalk (Pharo)"
 image:      "minesweeper.png"
+permalink:  "/smalltalk/2016/09/23/buscaminas-smalltalk.html"
 ---
 
 Minesweeper game was developed during [Object Technology course](https://sites.google.com/site/tecnologiadeobjetos2016/home). The game was made with Smalltalk (Pharo implementation, which was chosen for this course). I developed it over the image provided for the book ["Pharo by Example"](http://pharobyexample.org/image/PBE-OneClick-1.1.app.zip)
