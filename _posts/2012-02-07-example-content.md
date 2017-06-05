@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Ejemplo: Página de prueba"
-published:  true
+published:  false
 date:       2012-02-27 00:51:20 -0500
 summary:     "Página de prueba con Jekyll y kramdown"
 ---

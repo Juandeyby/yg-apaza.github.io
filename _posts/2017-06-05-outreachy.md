@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      "Starting Outreachy internship"
+published:  true
 date:       2017-06-05
 comments:   true
 summary:    "I was selected for Outreachy 2017 May-August round and joined to Lagom team"
