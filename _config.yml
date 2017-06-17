@@ -9,8 +9,8 @@ permalink:        pretty
 title:            Yuliana Apaza
 # tagline:          'My projects'
 description:      "I'm  fresh graduate of National University of Saint Augustine (Arequipa, Perú)"
-url:              "https://yuliana.me"
-#url:              "localhost:4000"
+#url:              "https://yuliana.me"
+url:              "localhost:4000"
 baseurl:          /
 paginate_path:    "blog/page:num/"
 paginate:         5
@@ -20,8 +20,6 @@ author:
   email:          'yuliana.apaza94@gmail.com'
   twitter:        'https://twitter.com/yg_pon'
   github:         'https://github.com/yg-apaza'
-
-
 
 collections:
   portfolio:
