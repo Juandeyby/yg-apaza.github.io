@@ -3,14 +3,15 @@ markdown:         kramdown
 highlighter:      rouge
 gems:
   - jekyll-paginate
+  - jemoji
 permalink:        pretty
 
 # Setup
 title:            Yuliana Apaza
 # tagline:          'My projects'
 description:      "I'm  fresh graduate of National University of Saint Augustine (Arequipa, Perú)"
-#url:              "https://yuliana.me"
-url:              "localhost:4000"
+url:              "https://yuliana.me"
+#url:              "localhost:4000"
 baseurl:          /
 paginate_path:    "blog/page:num/"
 paginate:         5
