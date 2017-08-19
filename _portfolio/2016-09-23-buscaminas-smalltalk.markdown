@@ -8,7 +8,7 @@ image:      "minesweeper.png"
 permalink:  "/smalltalk/2016/09/23/buscaminas-smalltalk.html"
 ---
 
-Minesweeper game was developed during [Object Technology course](https://sites.google.com/site/tecnologiadeobjetos2016/home). The game was made with Smalltalk (Pharo implementation, which was chosen for this course). I developed it over the image provided for the book ["Pharo by Example"](http://pharobyexample.org/image/PBE-OneClick-1.1.app.zip)
+Minesweeper game was developed during [Object Technology course](https://sites.google.com/site/tecnologiadeobjetos2016/home){:target="\_blank"}. The game was made with Smalltalk (Pharo implementation, which was chosen for this course). I developed it over the image provided for the book ["Pharo by Example"](http://files.pharo.org/books/pharo-by-example/){:target="\_blank"}
 
 ![Game GUI]({{ site.url }}/public/blog/2016-09-23/screenshot.png)
 
@@ -17,7 +17,7 @@ In "Files" section you can find a link to a zip file, it contains a Pharo image 
 Replace pharo.image and pharo.changes with the ones that are in the zip file, then copy and paste the picture files in the same path with pharo.image. Finally, start Pharo.
 
 It's also available in a [SmalltalkHub repo](http://smalltalkhub.com/#!/~YulianaApaza/Yuliana-Minesweeper/){:target="\_blank"}.
-For more info about Monticello versioning system and SmalltalkHub, you can read Chapter 7 of the book ["Deep into Pharo"](http://pharobooks.gforge.inria.fr/PharoByExampleTwo-Eng/latest/PBE2.pdf){:target="\_blank"}
+For more info about Monticello versioning system and SmalltalkHub, you can read Chapter 7 of the book ["Deep into Pharo"](http://pharobooks.gforge.inria.fr/PharoByExampleTwo-Eng/latest/PBE2.pdf){:target="\_blank"}.
 
 ## Documentation
 
@@ -27,5 +27,5 @@ In "Files" section you can find a link to the document in PDF (still in Spanish 
 
 ## Files
 
-- Pharo image with the game: [minesweeper-smalltalk-1.0.zip](https://github.com/yg-apaza/minesweeper-smalltalk/archive/v1.0.zip)
+- Pharo image with the game: [minesweeper-smalltalk-1.0.zip](https://github.com/yg-apaza/minesweeper-smalltalk/archive/v1.0.zip){:target="\_blank"}
 - Docs: [Report.pdf]({{ site.url }}/public/blog/2016-09-23/Informe.pdf){:target="\_blank"}
