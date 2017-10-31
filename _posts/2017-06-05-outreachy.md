@@ -5,7 +5,6 @@ summary:    "I was selected for Outreachy 2017 May-August round and joined to La
 date:       2017-06-05 18:21:00 -0500
 published:  true
 comments:   true
-
 ---
 I was accepted onto  [Outreachy 2017 May-August](https://wiki.gnome.org/Outreachy/2017/MayAugust#Lagom){:target="\_blank"} round. I'll be working on the Online auction sample app completion and to achieve that I'll use my [Outreachy application](https://docs.google.com/document/d/1OnG3D_9sGTuBBMR03ZAhi98uPhpYCQESWQ1dvY7tv6k/edit?usp=sharing){:target="\_blank"} plan.
 <!--List Online auction services-->
