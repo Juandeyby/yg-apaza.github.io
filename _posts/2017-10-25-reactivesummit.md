@@ -3,7 +3,7 @@ layout:     post
 title:      "Attending to Reactive Summit 2017"
 summary:    "Reactive Summit took place in Austin, TX from 18 - 20 october."
 date:       2017-10-25 16:51:00 -0500
-published:  true
+published:  false
 comments:   true
 ---
 
